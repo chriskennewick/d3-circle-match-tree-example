@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+ 
+/* Clear fix */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Document styling */
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  width: 1120px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+#wrapper {
+  position: relative;
+}
+
+#title {
+  font-size: 24px;
+  font-weight: 100;
+}
+#title div.large, #title span.large {
+  font-size: 36px;
+}
+
+/* svg styles */
+svg {
+  width: 820px;
+  height: 820px;
+  font-family: helvetica, sans-serif;
+}
+
+path, line {
+  fill: #225D23;
+  stroke: #eee;
+  stroke-width: 0.5px;
+  cursor: pointer;
+}
+
+/* */
+body {
+  width: 900px;
+  margin-top: 20px;
+}
+
+#chart {
+  height: 750px;
+  margin-left: 60px;
+}
+
+text {
+  fill: white;
+  font-size: 11px;
+  text-anchor: middle;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#round-labels text {
+  font-size: 20px;
+  fill: #597459;
+}
+
+#result {
+  position: absolute;
+  left: 680px;
+  top: 20px;
+  width: 400px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+#score {
+  position: absolute;
+  left: 680px;
+  top: 40px;
+  width: 400px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#title {
+  position: absolute;
+  top: 10px;
+}
+#title .large {
+  width: 150px;
+}
+ 
+</style>
+<body>
+ 
+<div id="wrapper">
+  <div id="chart">
+    <svg>
+    </svg>
+  </div>
+
+  <div id="result">
+  </div>
+  <div id="score">
+  </div>
+
+  <div id="title"><div>2013 NFL Playoff Results</div><div class="large">Circular match tree</div></div>
+</div> 
+<script type="text/javascript" src="bower_components/underscore/underscore.js"></script>  
+<script type="text/javascript" src="bower_components/d3/d3.js"></script>
+<script type="text/javascript" src="bower_components/jquery/jquery.js"></script>
+<script type="text/javascript" src="visualization.js"></script>
+<!--<script type="text/javascript" src="js/bst.js"></script>-->
+ 
+ 
+ 
+ 
+</body>
+</html>

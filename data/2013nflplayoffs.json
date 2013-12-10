@@ -1,0 +1,137 @@
+{
+  "name": "Ravens",
+  "round": 5,
+  "children": [{
+    "name": "Ravens",
+    "round": 4,
+    "children": [{
+      "name": "Ravens",
+      "round": 3,
+      "children": [{
+        "name": "Ravens",
+        "round": 2,
+        "children": [{
+          "name": "Ravens",
+          "round": 1,
+          "children": []
+        }, {
+          "name": "Colts",
+          "round": 1,
+          "children": []
+        }],
+        "match": {
+          "w1": 24,
+          "l1": 9
+        }
+      }, {
+        "name": "Broncos",
+        "round": 2,
+        "children": []
+      }],
+      "match": {
+        "w1": 38,
+        "l1": 35
+      }
+    }, {
+      "name": "Patriots",
+      "round": 3,
+      "children": [{
+        "name": "Patriots",
+        "round": 2,
+        "children": []
+      }, {
+        "name": "Texans",
+        "round": 2,
+        "children": [{
+          "name": "Texans",
+          "round": 1,
+          "children": []
+        }, {
+          "name": "Bengals",
+          "round": 1,
+          "children": []
+        }],
+        "match": {
+          "w1": 19,
+          "l1": 13
+        }
+      }],
+      "match": {
+        "w1": 41,
+        "l1": 28
+      }
+    }],
+    "match": {
+      "w1": 28,
+      "l1": 13
+    }
+  }, {
+    "name": "Forty-Niners",
+    "round": 4,
+    "children": [{
+      "name": "Forty-Niners",
+      "round": 3,
+      "children": [{
+        "name": "Forty-Niners",
+        "round": 2,
+        "children": []
+      }, {
+        "name": "Packers",
+        "round": 2,
+        "children": [{
+          "name": "Packers",
+          "round": 1,
+          "children": []
+        }, {
+          "name": "Vikings",
+          "round": 1,
+          "children": []
+        }],
+        "match": {
+          "w1": 24,
+          "l1": 10
+        }
+      }],
+      "match": {
+        "w1": 45,
+        "l1": 31
+      }
+    }, {
+      "name": "Falcons",
+      "round": 3,
+      "children": [{
+        "name": "Falcons",
+        "round": 2,
+        "children": []
+      }, {
+        "name": "Seahawks",
+        "round": 2,
+        "children": [{
+          "name": "Seahawks",
+          "round": 1,
+          "children": []
+        }, {
+          "name": "Redskins",
+          "round": 1,
+          "children": []
+        }],
+        "match": {
+          "w1": 24,
+          "l1": 14
+        }
+      }],
+      "match": {
+        "w1": 30,
+        "l1": 28
+      }
+    }],
+    "match": {
+      "w1": 28,
+      "l1": 24
+    }
+  }],
+  "match": {
+    "w1": 34,
+    "l1": 31
+  }
+}
